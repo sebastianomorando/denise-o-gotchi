@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+  <title> DENISE-O-GOTCHI </title>
+    
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<!-- Optional theme
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+ -->
+
+    <link rel="stylesheet" href="twemoji-awesome.css" >
+    
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
+    <style>
+      body {
+        font-family: 'Indie Flower', cursive;
+      }
+      #cose>i {
+        cursor: pointer;
+      }
+      #ballon {
+        position: absolute;
+        height: 140px;
+        width: 200px;
+        top: 140px;
+        left: 70px;
+        background-image: url(balloon.png);
+        background-size: cover;
+        padding-top: 50px;
+        padding-left: 20px;
+        font-size: 24px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <img src="denise.jpg" height="300" style="vertical-align: top;" />
+    
+    <div id="ballon"> </div>
+    
+    
+    <div id="stats" style="display:inline-block;width:50%;">
+    
+      SALUTE:
+    <div class="progress" id="salute">
+      <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+      </div>
+    </div>
+      FAME:
+      <div class="progress" id="fame">
+        <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
+        </div>
+    </div>
+      CACCA:
+    <div class="progress" id="cacca">
+      <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
+      </div>
+    </div>
+      SONNO:
+    <div class="progress" id="sonno">
+      <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%">
+      </div>
+    </div>
+      
+    </div>
+    
+    
+         
+
+    <input type="button"  class="btn btn-default" style="display:none;" id="mangia" onclick="" value="Mangia" />
+    <input type="button" id="cacca" style="display:none;" onclick="" value="Fai la cacca" />      
+    <input type="button" id="calcola" style="display:none;" onclick="" value="Fai la cacca" />
+    
+    <h3>Cose che la vita randomicamente fa subire a Denise:</h3>
+    <div id="cose">
+      <i id="cosa1" class="twa twa-3x twa-heart"></i>
+      <i id="cosa2" class="twa twa-3x twa-heart"></i>
+      <i id="cosa3" class="twa twa-3x twa-heart"></i>
+      <i id="cosa4" class="twa twa-3x twa-heart"></i>
+      <i id="cosa5" class="twa twa-3x twa-heart"></i>
+    </div>
+    
+    
+    <script src="script.js"></script>
+  </body>
+</html>
